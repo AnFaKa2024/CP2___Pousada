@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1> FORMULÁRIO DE PRÉ RESERVA - POUSADA AFK</h1>
+    <img src="../Imagens/Logo_Fim(1).png" alt="LogoAFK">
+  </header>
+  <main>
+  
+  <section>
+    <h3>Por favor, preencher todos os campos abaixo, entraremos em contato em breve!!</h3>
+
+
+      <form action="">
+
+       
+          <div class="idInfoHospede">
+            <fieldset i>
+              <legend><b>Informações do Hóspede Responsável pela Reserva</b></legend>
+              <div class="nome">
+                <label for="Nome">Nome* </label>
+                <input id="Nome" name="nome" type="text" placeholder="*Seu primeiro Nome" required/><br>
+              </div>
+              <div class="tel">
+                <label for="Tel">Telefone* </label>
+                <input id="Tel" name="tel" type="number" placeholder="*Seu telefone" required/><br>
+              </div>
+              <div class="email">
+                <label for="email">E-mail* </label>
+                <input id="email" name="tel" type="email" placeholder="*Seu e-mail" required/><br>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="idHospedes">
+            <fieldset>
+              <legend><b>Hóspedes</b></legend>
+              <label for="idAdc" required> Quantos Adultos?*</label>
+              <select name="qtdAdulto" id="idqtdAdulto">
+                <option value="" disabled selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="Mais">Mais</option>
+              </select>
+              <label for="idAdc"> Quantas Crianças?</label>
+              <select name="qtdCriança" id="idqtdCriança">
+                <option value="" disabled selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="Mais">Mais</option>
+              </select>
+              <label for="idIdadeCriança" required>Idade da Criança</label>
+              <input type="number" id="idIdadeCriança" placeholder="*Digite a idade da Criança"/>
+            </fieldset>
+          </div>
+
+          <div class="idEstadia">
+            <fieldset>
+              <legend><b>Período da Estadia</b></legend>
+              <label for="idDataEntrada" required>Check-in*</label>
+              <input type="datetime-local" name="dataEntrada" id="idDataEntrada">
+              <label for="idDataSaida" required>Check-out*</label>
+              <input type="datetime-local" name="dataSaida" id="idDataSaida">
+            </fieldset>
+          </div>
+            <div class="idAcomodacao">
+              <fieldset>
+                <legend for="idAcomodacao"><b>Acomodações</b></legend>
+                  <select name="acomodacao" id="idAcomodacao">
+                    <option value="" disabled selected></option>
+                    <option value="Master">Master</option>
+                    <option value="Luxo">Luxo</option>
+                    <option value="Standard">Standard</option>
+                  </select>
+              </fieldset>
+            </div>
+
+          <div class="idPet">
+            <fieldset>
+              <legend><b>Pet</b></legend>
+              <label for="idPet">Irá utilizar o espaço pet?</label>
+              <select name="pet" id="idPet">
+                <option value="" disabled selected></option>
+                <option value="sim">Sim</option>
+                <option value="sim">Sim</option>
+              </select>
+            </fieldset>
+          </div>
+
+          <div class="obs">
+            <fieldset>
+              <legend><b>OBSERVAÇÕES</b></legend>
+              <textarea name="obs" id="idObs" cols="30" rows="10">Deixe aqui observações quanto a RESTRIÇÕES ALIMENTARES</textarea>
+            </fieldset>
+          </div>
+
+        
+
+        
+
+      </form>
+    </section>
+  </main>
+  
+</body>
+</html>
