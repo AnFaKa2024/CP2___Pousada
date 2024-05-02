@@ -1,0 +1,83 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  margin: 45px;
+  background-color: #cccbcb42;
+}
+
+h1{
+  font-size: 48px;
+  text-align: center;
+}
+
+img{
+  width: 150px;
+  position: relative;
+  top: -130px
+}
+
+section{
+  background-color: #3c656339;
+}
+
+h3{
+  font-size: 25px;
+}
+legend{
+  font-size: 20px;
+}
+
+fieldset{
+  border:2px dotted;
+  border-color: #3C6563;
+  border-spacing: 5px;
+  
+}
+
+.idInfoHospede{
+  width: 93%;
+  height: 115px;
+}
+
+.tel{
+  position: relative;
+  left: 250px;
+  top: -19px;
+}
+.email{
+  position: relative;
+  left: 520px;
+  top: -38px;
+}
+.idHospedes{
+  width: 45%;
+  height: 80px;
+  
+}
+
+.idEstadia{
+  width: 45%;
+  height: 80px;
+  position: relative;
+  left: 860px;
+  top: -78px;
+
+}
+.idAcomodacao{
+  width: 45%;
+  height: 80px;
+  position: relative;
+  top: -78px;
+}
+.idPet{
+  width: 45%;
+  position: relative;
+  left: 860px;
+  top:-156px;
+}
+
+.obs{
+  width: 93%;
+  position: relative;
+  top:-156px;
+}
