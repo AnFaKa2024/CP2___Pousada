@@ -5,17 +5,43 @@ body{
   background-color: #cccbcb42;
 }
 
+header{
+  height: 120px;
+}
+
 h1{
-  font-size: 48px;
+  font-size: 50px;
   text-align: center;
 }
 
+/* logo */
 img{
-  width: 150px;
+  width: 165px;
   position: relative;
-  top: -130px
+  top: -123px
 }
 
+/* link para trocar de pagina */
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+li{
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #404040;
+}
+.paginas{
+  margin: -150px;
+}
+
+/* cor do fundo do formulário */
 section{
   background-color: #3c656339;
 }
@@ -37,9 +63,11 @@ fieldset{
 .idInfoHospede{
   width: 93%;
   height: 115px;
+  
 }
 
 .tel{
+  font-size: 20px;
   position: relative;
   left: 250px;
   top: -19px;
