@@ -49,6 +49,7 @@ section{
 h3{
   font-size: 25px;
 }
+
 legend{
   font-size: 20px;
 }
@@ -72,11 +73,13 @@ fieldset{
   left: 250px;
   top: -19px;
 }
+
 .email{
   position: relative;
   left: 520px;
   top: -38px;
 }
+
 .idHospedes{
   width: 45%;
   height: 80px;
@@ -91,12 +94,14 @@ fieldset{
   top: -78px;
 
 }
+
 .idAcomodacao{
   width: 45%;
   height: 80px;
   position: relative;
   top: -78px;
 }
+
 .idPet{
   width: 45%;
   position: relative;

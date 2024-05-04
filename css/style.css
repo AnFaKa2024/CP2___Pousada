@@ -1,0 +1,96 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  margin: 45px;
+  background-color: #cccbcb42;
+}
+
+header {
+  height: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+
+/* imagem */
+img {
+  width: 180px;
+  position: relative;
+  top: -100px;
+}
+
+/* link para trocar de pagina */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #404040;
+  position: relative;
+  top:-118px;
+}
+
+/* Texto sobre pousada */
+h2 {
+  font-size: 32px;
+  color: #f2a80b;
+  text-align: center;
+  position: relative;
+  top:50px;
+}
+
+/* Texto */
+p {
+  font-size: 25px;
+  font-style: italic;
+  line-height: 45px;
+  word-spacing: 5px;
+  text-indent: 30px;
+  text-align: center;
+  position: relative;
+}
+
+/* texto */
+.box {
+  position: relative;
+  top: 250px;
+}
+
+/* foto pousada */
+.box1 img{
+  width: 25%;
+  height: 630px;
+  float: left;
+  top:-450px;
+}
+
+/* foto cafe na praia */
+.box2 img{
+  width: 25%;
+  height: 600px;
+  float: right;
+  top: -450px;
+}
+
+/* foto coqueiros */
+.box3 img{
+  width: 1800px;
+  max-height: 550px;
+  top:-320px;
+}
+
+footer{
+  text-align: center;
+  color: #A98C66;
+  top: -330px;
+}
