@@ -17,7 +17,7 @@ h1 {
   
 /* imagem */
 img {
-    width: 180px;
+    width: 20vw;
 }
   
 /* link para trocar de pagina */
@@ -34,6 +34,9 @@ a {
     font-size: 20px;
     color: #404040;
 }
+.logo img{
+    width: 10vw;
+}
 h2 {
     font-size: 32px;
     color: #f2a80b;
@@ -48,19 +51,19 @@ p {
   text-align: center;
 }
 
-
 header{
     left: 3vw;
     display: grid;
     text-align: center;
-    grid-auto-rows: 150px;
+    grid-auto-rows: 8vw;
     grid-template-columns: repeat(auto-fit, 1fr);
     gap: 5px;
     grid-template-areas: 
-    'logo   h1      h1      h1      h1      h1      h1     h1      h1'
-    'logo   menu    menu    menu    menu    menu    menu   menu    menu'
+    'logo   h1      h1      h1      h1      h1      h1'
+    'logo   menu    menu    menu    menu    menu    menu'
     ;
 }
+
 .logo{grid-area: logo;}
 h1{grid-area: h1;}
 .menu{grid-area: menu;}
@@ -69,16 +72,20 @@ h1{grid-area: h1;}
 main{
     display: grid;
     text-align: center;
-    grid-auto-rows: 150px;
-    grid-template-columns: repeat(auto-fit, 1fr);
-    gap: 5px;
+    grid-auto-rows: 10w;
+    grid-template-columns: repeat(auto-fit, 5fr);
+    gap: 0.8vw;
     grid-template-areas: 
 
     'servico    servico     servico'
     'gastro     gastro      gastro'    
     'gastro     gastro      gastro'    
     'peixefri   salada      cafe'       
+    'peixefri   salada      cafe'       
     'moqueca      camarao     moranga'        
+    'moqueca      camarao     moranga'        
+    'cafep     drink       drink2'
+    'cafep     drink       drink2'
     'cafep     drink       drink2'
     'cafep     drink       drink2'
     'spa        spa         spa'
