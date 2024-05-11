@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+    margin: 1vw;
+    background-color: #cccbcb42;
+}
+  
+h1 {
+    font-size: 60px;
+    left: 6vw;
+}
+  
+/* imagem */
+img {
+    width: 180px;
+}
+  
+/* link para trocar de pagina */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #404040;
+}
+h2 {
+    font-size: 32px;
+    color: #f2a80b;
+    text-align: center;
+}
+p {
+  font-size: 25px;
+  font-style: italic;
+  line-height: 45px;
+  word-spacing: 5px;
+  text-indent: 30px;
+  text-align: center;
+}
+
+
+header{
+    left: 3vw;
+    display: grid;
+    text-align: center;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    gap: 5px;
+    grid-template-areas: 
+    'logo   h1      h1      h1      h1      h1      h1     h1      h1'
+    'logo   menu    menu    menu    menu    menu    menu   menu    menu'
+    ;
+}
+.logo{grid-area: logo;}
+h1{grid-area: h1;}
+.menu{grid-area: menu;}
+
+.gale{
+    display: grid;
+    text-align: center;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    gap: 5px;
+    grid-template-areas: 
+
+    'textoga    textoga     textoga     textoga     textoga     textoga'
+    'area1      area2       area3       area4       area5       pisina2'
+    'area6      recp        jogos       hidro       pisina      pisina2'
+    'textovis   textovis    textovis    textovis    textovis    textovis'
+    'vis1       vis2        vis3        vis4        vis5        vis6'  
+    ;
+}
+
+
+.textoga{grid-area: textoga;}
+.area1{grid-area: area1;}
+.area2{grid-area: area2;}
+.area3{grid-area: area3;}
+.area4{grid-area: area4;}
+.area5{grid-area: area5;}
+.area6{grid-area: area6;}
+.recp{grid-area: recp;}
+.jogos{grid-area: jogos;}
+.hidro{grid-area: hidro;}
+.pisina{grid-area: pisina;}
+.pisina2{grid-area: pisina2;}
+.textovis{grid-area: textovis;}
+.vis1{grid-area: vis1;}
+.vis2{grid-area: vis2;}
+.vis3{grid-area: vis3;}
+.vis4{grid-area: vis4;}
+.vis5{grid-area: vis5;}
+.vis6{grid-area: vis6;}

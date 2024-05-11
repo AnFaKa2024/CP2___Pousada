@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+    margin: 1vw;
+    background-color: #cccbcb42;
+}
+  
+h1 {
+    font-size: 60px;
+    left: 6vw;
+}
+  
+/* imagem */
+img {
+    width: 180px;
+}
+  
+/* link para trocar de pagina */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #404040;
+}
+h2 {
+    font-size: 32px;
+    color: #f2a80b;
+    text-align: center;
+}
+p {
+  font-size: 25px;
+  font-style: italic;
+  line-height: 45px;
+  word-spacing: 5px;
+  text-indent: 30px;
+  text-align: center;
+}
+
+
+header{
+    left: 3vw;
+    display: grid;
+    text-align: center;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    gap: 5px;
+    grid-template-areas: 
+    'logo   h1      h1      h1      h1      h1      h1     h1      h1'
+    'logo   menu    menu    menu    menu    menu    menu   menu    menu'
+    ;
+}
+.logo{grid-area: logo;}
+h1{grid-area: h1;}
+.menu{grid-area: menu;}
+
+
+main{
+    display: grid;
+    text-align: center;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    gap: 5px;
+    grid-template-areas: 
+
+    'servico    servico     servico'
+    'gastro     gastro      gastro'    
+    'gastro     gastro      gastro'    
+    'peixefri   salada      cafe'       
+    'moqueca      camarao     moranga'        
+    'cafep     drink       drink2'
+    'cafep     drink       drink2'
+    'spa        spa         spa'
+    'spa1       spa2        spa3'
+    ;
+}
+
+
+.servico{grid-area: servico;}
+.gastro{grid-area: gastro;}
+.peixefri{grid-area: peixefri;}
+.salada{grid-area: salada;}
+.cafe{grid-area: cafe;}
+.cafep{grid-area: cafep;}
+.camarao{grid-area: camarao;}
+.moranga{grid-area: moranga;}
+.moqueca{grid-area: moqueca;}
+.drink{grid-area: drink;}
+.drink2{grid-area: drink2;}
+
+.spa{grid-area: spa;}
+.spa1{grid-area: spa1;}
+.spa2{grid-area: spa2;}
+.spa3{grid-area: spa3;}
