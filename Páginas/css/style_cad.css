@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  margin: 45px;
+  background-color: #f5d98057;
+  overflow:auto;
+}
+
+header{
+  height: 219px;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* logo */
+img{
+  margin-top: -4vw;
+  width: 180px;
+}
+
+/* link para trocar de pagina */
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 20px;
+  
+}
+li{
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #404040;
+}
+.paginas{
+  margin: -150px;
+}
+
+/* cor do fundo do formulário */
+section{
+  background-color: #f5e53b45;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+  line-height: -8px;
+}
+
+legend{
+  font-size: 25px;
+  text-indent: 20px;
+}
+
+fieldset{
+  border:2px dotted;
+  border-color: #3C6563;
+  border-spacing: 5px;
+  margin-bottom: 3vw;
+ 
+}
+
+.idInfoHospede{
+  width: 93%;
+  height:auto;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  
+}
+
+.nome{
+  font-size: 20px;
+  margin: 1vw;
+  top: 0.2vw;
+
+}
+
+.tel{
+  font-size: 20px;
+  position: relative;
+  left: 300px;
+  top: -1.8vw;
+}
+
+.email{
+  position: relative;
+  left: 640px;
+  top: -2.5vw;
+}
+
+.idHospedes{
+  width: 40%;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  
+}
+
+.idEstadia{
+  width: 40%;
+  margin-left: 52vw;
+  margin-top: -5.2vw;
+
+}
+
+.idAcomodacao{
+  width: 40%;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+.idPet{
+  width: 40%;
+  margin-top: -5.5vw;
+  margin-left: 52vw;
+}
+
+  
+
+.obs{
+  width: 93%;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+footer{
+  font-size: 40px;
+  margin: 3vw;
+  
+}
+
+footer p{
+  text-indent: 50px;
+}
