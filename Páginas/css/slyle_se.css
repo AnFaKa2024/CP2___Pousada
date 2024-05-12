@@ -35,8 +35,8 @@ a {
     color: #404040;
 }
 .logo{
-    width: 10vw;
-    height: 10w;
+    width: 11vw;
+    height: 11w;
 }
 h2 {
     font-size: 32px;
@@ -54,10 +54,13 @@ p {
 
 .menu{
     position: relative;
-    top: -7vw;
+    top: -11vw;
+    line-height: 150px;
 }
 
 main{
+    position: relative;
+    top: -7vw;
     display: grid;
     text-align: center;
     grid-auto-rows: 10w;

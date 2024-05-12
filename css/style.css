@@ -91,16 +91,17 @@ h2 {
 }
 
 .box1 {
+  width: 22vw;
+  left: 4.5vw;
   position:absolute;
-  margin-bottom:20vw;
   right: 82vw;
 }
 
 .box2{
-  position: relative;
-  margin-bottom:20vw;
+  width: 22vw;
+  position: absolute;
   right:12vw;
-  width: 100px;
+  left: 72.511vw;
 }
 
 
