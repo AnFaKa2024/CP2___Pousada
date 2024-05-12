@@ -17,7 +17,7 @@ h1 {
   
 /* imagem */
 img {
-    width: 15vw;
+    width: 20vw;
 
 }
 .logo{
@@ -66,7 +66,7 @@ p {
     display: grid;
     text-align: center;
     grid-auto-rows: 10w;
-    grid-template-columns: repeat(auto-fit, 5fr);
+    grid-template-columns: repeat(auto-fit, 4fr);
     gap: 0.8vw;
     grid-template-areas: 
 
